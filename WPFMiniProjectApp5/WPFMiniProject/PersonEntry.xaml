@@ -1,0 +1,64 @@
+﻿<Window x:Class="WPFMiniProject.PersonEntry"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFMiniProject"
+        mc:Ignorable="d" FontSize="18"
+        Title="Person Entry" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Text="Person Entry" FontSize="36" FontWeight="Bold" Margin="0 20 0 0" TextAlignment="Center"/>
+
+        <TextBlock Grid.Row="1" Grid.Column="1" Text="First Name:" TextAlignment="Right" Margin="0 10 5 0"/>
+        <TextBox x:Name="FirstNameText" Grid.Row="1" Grid.Column="2" Margin="0 10 0 0" MinWidth="150"/>
+
+        <TextBlock Grid.Row="2" Grid.Column="1" Text="Last Name:" TextAlignment="Right" Margin="0 10 5 0"/>
+        <TextBox x:Name="LastNameText" Grid.Row="2" Grid.Column="2" Margin="0 10 0 0" MinWidth="150"/>
+
+        <TextBlock Grid.Row="3" Grid.Column="1" Text="Active:" TextAlignment="Right" Margin="0 10 5 0"/>
+        <CheckBox Grid.Row="3" Grid.Column="2" x:Name="IsActiveCheck" VerticalAlignment="Bottom"/>
+
+        <TextBlock Grid.Row="4" Grid.Column="1" Text="Addresses" Margin="0 20 0 0"/>
+        <Button x:Name="AddAddressButton" Grid.Row="4" Grid.Column="2" HorizontalAlignment="Right" Margin="0 20 5 0" Width="80" Content="Add" Click="AddAddressButton_Click"/>
+
+        <ListBox x:Name="AddressesList" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Margin="0 5 0 0">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <ListBoxItem>
+                        <StackPanel Orientation="Vertical">
+                            <TextBlock Text="{Binding StreetAddress}"/>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding City}"/>
+                                <TextBlock Text=", "/>
+                                <TextBlock Text="{Binding State}"/>
+                                <TextBlock Text=" "/>
+                                <TextBlock Text="{Binding ZipCode}"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </ListBoxItem>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <Button x:Name="SavePersonButton" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="2" Margin="20 10 20 0"  Content="Save" Click="SavePersonButton_Click"/>
+
+
+    </Grid>
+</Window>

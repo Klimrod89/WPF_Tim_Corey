@@ -1,0 +1,11 @@
+\\Mac\iCloud\Code\DotNetCLI\Tim Corey\C# MasterCourse\WPF\WPFMiniProjectApp1\DemoLibrary\bin\Debug\net8.0\DemoLibrary.deps.json
+\\Mac\iCloud\Code\DotNetCLI\Tim Corey\C# MasterCourse\WPF\WPFMiniProjectApp1\DemoLibrary\bin\Debug\net8.0\DemoLibrary.dll
+\\Mac\iCloud\Code\DotNetCLI\Tim Corey\C# MasterCourse\WPF\WPFMiniProjectApp1\DemoLibrary\bin\Debug\net8.0\DemoLibrary.pdb
+\\Mac\iCloud\Code\DotNetCLI\Tim Corey\C# MasterCourse\WPF\WPFMiniProjectApp1\DemoLibrary\obj\Debug\net8.0\DemoLibrary.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\iCloud\Code\DotNetCLI\Tim Corey\C# MasterCourse\WPF\WPFMiniProjectApp1\DemoLibrary\obj\Debug\net8.0\DemoLibrary.AssemblyInfoInputs.cache
+\\Mac\iCloud\Code\DotNetCLI\Tim Corey\C# MasterCourse\WPF\WPFMiniProjectApp1\DemoLibrary\obj\Debug\net8.0\DemoLibrary.AssemblyInfo.cs
+\\Mac\iCloud\Code\DotNetCLI\Tim Corey\C# MasterCourse\WPF\WPFMiniProjectApp1\DemoLibrary\obj\Debug\net8.0\DemoLibrary.csproj.CoreCompileInputs.cache
+\\Mac\iCloud\Code\DotNetCLI\Tim Corey\C# MasterCourse\WPF\WPFMiniProjectApp1\DemoLibrary\obj\Debug\net8.0\DemoLibrary.dll
+\\Mac\iCloud\Code\DotNetCLI\Tim Corey\C# MasterCourse\WPF\WPFMiniProjectApp1\DemoLibrary\obj\Debug\net8.0\refint\DemoLibrary.dll
+\\Mac\iCloud\Code\DotNetCLI\Tim Corey\C# MasterCourse\WPF\WPFMiniProjectApp1\DemoLibrary\obj\Debug\net8.0\DemoLibrary.pdb
+\\Mac\iCloud\Code\DotNetCLI\Tim Corey\C# MasterCourse\WPF\WPFMiniProjectApp1\DemoLibrary\obj\Debug\net8.0\ref\DemoLibrary.dll

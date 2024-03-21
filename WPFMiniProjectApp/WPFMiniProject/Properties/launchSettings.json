@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WPFMiniProject": {
+      "commandName": "Project",
+      "hotReloadEnabled": true
+    }
+  }
+}
