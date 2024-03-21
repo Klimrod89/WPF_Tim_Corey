@@ -33,12 +33,12 @@
         <TextBox Grid.Row="2" Grid.Column="2" x:Name="LastNameText" Margin="0 10 0 0"  MinWidth="200" ToolTip="Enter your last name"/>
 
         <TextBlock Grid.Row="3" Grid.Column="1" Text="Is Active" Margin="0 10 5 0" HorizontalAlignment="Right"/>
-        <CheckBox Grid.Row="3" Grid.Column="2" x:Name="IsActiveCheck" Margin="0 10 0 0" VerticalAlignment="Bottom" />
+        <CheckBox Grid.Row="3" Grid.Column="2" x:Name="IsActiveCheck" Margin="0 10 0 0" VerticalAlignment="Bottom"/>
 
         <TextBlock Grid.Row="4" Grid.Column="1" Text="Addresses" Margin="0 10 0 0" HorizontalAlignment="Left"/>
-        <Button Grid.Row="4" Grid.Column="2" x:Name="AddAddressBtn" Content="New Address" Margin="0 10 0 0" HorizontalAlignment="Right" Width="120"/>
+        <Button Grid.Row="4" Grid.Column="2" x:Name="AddAddressBtn" Content="New Address" Margin="0 10 0 0" HorizontalAlignment="Right" Width="120" Click="AddAddressBtn_Click"/>
 
-        <ListBox Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Margin="0 10 0 0" MinHeight="10">
+        <ListBox x:Name="AddressesListBox" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Margin="0 10 0 0" MinHeight="10">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Vertical">
@@ -54,6 +54,6 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
-        <Button x:Name="SavePersonBtn" Content="Save Person" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="2" Margin="0 10 0 0" Width="100"/>
+        <Button x:Name="SavePersonBtn" Content="Save Person" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="2" Margin="0 10 0 0" Width="100" Click="SavePersonBtn_Click"/>
     </Grid>
 </Window>

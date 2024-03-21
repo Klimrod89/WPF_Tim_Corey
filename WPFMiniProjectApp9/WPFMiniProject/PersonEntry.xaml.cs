@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using DemoLibrary;
+using System.ComponentModel;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -13,10 +15,37 @@ namespace WPFMiniProject;
 /// <summary>
 /// Interaction logic for MainWindow.xaml
 /// </summary>
-public partial class PersonEntry : Window
+public partial class PersonEntry : Window, ISaveAddress
 {
+    BindingList<AddressModel> addresses = [];
     public PersonEntry()
     {
         InitializeComponent();
+
+        AddressesListBox.ItemsSource = addresses;
+    }
+
+    public void SaveAddress(AddressModel address)
+    {
+        addresses.Add(address);
+    }
+
+    private void AddAddressBtn_Click(object sender, RoutedEventArgs e)
+    {
+        AddressEntry addressEntry = new (this);
+        addressEntry.ShowDialog();
+    }
+
+    private void SavePersonBtn_Click(object sender, RoutedEventArgs e)
+    {
+        PersonModel person = new()
+        {
+            FirstName = FirstNameText.Text,
+            LastName = LastNameText.Text,
+            IsActive = IsActiveCheck.IsChecked ?? false,
+            Addresses = addresses.ToList()
+        };
+
+        Close();
     }
 }

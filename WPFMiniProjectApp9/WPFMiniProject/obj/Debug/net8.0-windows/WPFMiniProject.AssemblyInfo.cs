@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WPFMiniProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84eedbd49731b41088a9d2b154c1add4b2838c40")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5966ea0968853b66b34bfae01000f9f1aec02150")]
 [assembly: System.Reflection.AssemblyProductAttribute("WPFMiniProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WPFMiniProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

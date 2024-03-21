@@ -19,3 +19,9 @@ Z:\Code\DotNetCLI\Tim Corey\C# MasterCourse\WPF\WPFMiniProjectApp9\WPFMiniProjec
 Z:\Code\DotNetCLI\Tim Corey\C# MasterCourse\WPF\WPFMiniProjectApp9\WPFMiniProject\obj\Debug\net8.0-windows\WPFMiniProject.pdb
 Z:\Code\DotNetCLI\Tim Corey\C# MasterCourse\WPF\WPFMiniProjectApp9\WPFMiniProject\obj\Debug\net8.0-windows\WPFMiniProject.genruntimeconfig.cache
 Z:\Code\DotNetCLI\Tim Corey\C# MasterCourse\WPF\WPFMiniProjectApp9\WPFMiniProject\obj\Debug\net8.0-windows\ref\WPFMiniProject.dll
+Z:\Code\DotNetCLI\Tim Corey\C# MasterCourse\WPF\WPFMiniProjectApp9\WPFMiniProject\bin\Debug\net8.0-windows\DemoLibrary.dll
+Z:\Code\DotNetCLI\Tim Corey\C# MasterCourse\WPF\WPFMiniProjectApp9\WPFMiniProject\bin\Debug\net8.0-windows\DemoLibrary.pdb
+Z:\Code\DotNetCLI\Tim Corey\C# MasterCourse\WPF\WPFMiniProjectApp9\WPFMiniProject\obj\Debug\net8.0-windows\WPFMiniProject.csproj.AssemblyReference.cache
+Z:\Code\DotNetCLI\Tim Corey\C# MasterCourse\WPF\WPFMiniProjectApp9\WPFMiniProject\obj\Debug\net8.0-windows\AddressEntry.g.cs
+Z:\Code\DotNetCLI\Tim Corey\C# MasterCourse\WPF\WPFMiniProjectApp9\WPFMiniProject\obj\Debug\net8.0-windows\AddressEntry.baml
+Z:\Code\DotNetCLI\Tim Corey\C# MasterCourse\WPF\WPFMiniProjectApp9\WPFMiniProject\obj\Debug\net8.0-windows\WPFMiniP.165B16C2.Up2Date

@@ -8,4 +8,10 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="DemoLibrary">
+      <HintPath>..\..\WPFMiniProjectApp\DemoLibrary\bin\Debug\net8.0\DemoLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
